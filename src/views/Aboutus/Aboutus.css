@@ -1,10 +1,20 @@
+.about-container{
+    min-height: 100vh;
+}
 .skimage{
-    height: 500px;
-    width: auto;
-    margin-left: 300px;
+    height: 400px;
+    width: 500px;
+    margin-left:auto;
+    display: block;
     margin-right: auto;
     margin-top: 20px;
+    border-radius: 5px;
     
+}
+.skimage:hover{
+    height:408px;
+    width: 505px;
+    box-shadow: 1px 2px 2px 1px rgb(190, 189, 189);
 }
 .skheading{
     text-align: center;
@@ -17,3 +27,50 @@
     text-shadow: 1px 1px black;
     font-size: 33px;
 }
+ .child-container-image{
+    height: 300px;
+    width: 500px;
+}
+.main-container{
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ .container-child{
+    height: 300px;
+    width: 500px;
+    margin-top: 30px;
+    border-radius: 4px;
+
+ }
+ .heading-2{
+    color: darkorange;
+    text-align: center;
+ }
+ .heading-info{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+ }
+ .button{
+    background-color: rgb(226,135,16);
+    height: 30px;
+    width: 140px;
+    border: 1px solid rgb(255,0,0);
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    padding: 5px 2px;
+    cursor: pointer;
+ }
+ .button:hover{
+    background-color: rgb(202,115,16);
+    border-radius: 6px;
+    color:whitesmoke;
+ }
