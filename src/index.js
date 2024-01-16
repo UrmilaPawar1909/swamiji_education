@@ -11,6 +11,7 @@ import Review from './views/Review/Review';
 import Training from './views/Training/Training';
 import Contact from './views/Contactus/Contactus';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Footer from './components/Footer/Footer';
 
 
 const router = createBrowserRouter([
@@ -46,8 +47,8 @@ const router = createBrowserRouter([
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<>
-<RouterProvider router={router}/>
+root.render(<> 
+    <Home/>
   </>
 );
 

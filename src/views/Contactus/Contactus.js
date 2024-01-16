@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Contactus.css'
 
 function Contactus() {
   return (
