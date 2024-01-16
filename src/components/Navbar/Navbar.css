@@ -1,6 +1,7 @@
-.navbar{
+hkadd.navbar{
     background-color: darkorange;
-    height: 70px;
+
+    
     
 
 }
@@ -18,4 +19,6 @@
     font-size: 25px;    
     padding-bottom: 30px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
