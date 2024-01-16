@@ -11,11 +11,11 @@ export default function Navbar() {
             <a className="nav-menu" to="/">Home</a>
 
             <a className="nav-menu" to="/Hotel">About Us</a>
-            <a className="nav-menu"  to="/flight">Training</a>
-            <a className="nav-menu"  to="/attraction">Open a Demat Account</a>
-            <a className="nav-menu"  to="/CarRental">Review</a>
-            <a className="nav-menu"  to="/login">Gallery</a>
-            <a className="nav-menu"  to="/register">Contact Us</a>
+            <a className="nav-menu" to="/flight">Training</a>
+            <a className="nav-menu" to="/attraction">Open a Demat Account</a>
+            <a className="nav-menu" to="/CarRental">Review</a>
+            <a className="nav-menu" to="/login">Gallery</a>
+            <a className="nav-menu" to="/register">Contact Us</a>
            
 
         </div>
