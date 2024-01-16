@@ -1,9 +1,14 @@
 import React from 'react';
-import './Contactus.css'
+import './Contactus.css';
+import Navbar  from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 function Contactus() {
-  return (
+  return (<>
+  <Navbar/>
     <div>Contactus</div>
+    <Footer/>
+    </>
   )
 }
 

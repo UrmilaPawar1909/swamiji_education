@@ -53,7 +53,7 @@ root.render(<>
 </>
 =======
 root.render(<> 
-    <Home/>
+   <RouterProvider router={router}/>
   </>
 >>>>>>> 72ccb7823cc4d84ac66202ee3681c0def8c3fbd7
 );
