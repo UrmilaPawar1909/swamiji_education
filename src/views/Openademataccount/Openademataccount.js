@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Openademataccount.css';
 
 function Openademataccount() {
   return (
