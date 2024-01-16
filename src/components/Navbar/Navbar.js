@@ -8,14 +8,14 @@ export default function Navbar() {
         <div className="navbar">
             
             <img src={img1} className="brand-logo"/>
-            <a className="nav-menu" to="/">Home</a>
+            <Link className="nav-menu" to="/">Home</Link>
 
-            <a className="nav-menu" to="/Hotel">About Us</a>
-            <a className="nav-menu" to="/flight">Training</a>
-            <a className="nav-menu" to="/attraction">Open a Demat Account</a>
-            <a className="nav-menu" to="/CarRental">Review</a>
-            <a className="nav-menu" to="/login">Gallery</a>
-            <a className="nav-menu" to="/register">Contact Us</a>
+            <Link className="nav-menu" to="/about">About Us</Link>
+            <Link className="nav-menu" to="/training">Training</Link>
+            <Link className="nav-menu" to="/opendemataccount">Open a Demat Account</Link>
+            <Link className="nav-menu" to="/review">Review</Link>
+            <Link className="nav-menu" to="/gallery">Gallery</Link>
+            <Link className="nav-menu" to="/contact">Contact Us</Link>
            
 
         </div>
