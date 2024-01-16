@@ -46,15 +46,10 @@ const router = createBrowserRouter([
 
 ])
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-<<<<<<< HEAD
-root.render(<>
-<RouterProvider router={router}/>
-</>
-=======
+const root = ReactDOM.createRoot(document.getElementById('root'))
+
 root.render(<> 
     <Home/>
   </>
->>>>>>> 72ccb7823cc4d84ac66202ee3681c0def8c3fbd7
 );
 
