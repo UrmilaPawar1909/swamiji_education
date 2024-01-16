@@ -21,4 +21,10 @@
     cursor: pointer;
     text-decoration: none;
     color: black;
+
+}
+
+.nav-menu:hover{
+    color: white;
+    font-size: 27px;
 }
