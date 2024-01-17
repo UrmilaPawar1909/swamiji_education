@@ -14,6 +14,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Footer from './components/Footer/Footer';
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",

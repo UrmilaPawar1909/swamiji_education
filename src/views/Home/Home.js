@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
     <Navbar/>
-    <div >Home</div>
+    <div className='home-container' >Home</div>
     <Footer/>
     </div>
   )

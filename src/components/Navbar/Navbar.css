@@ -1,8 +1,10 @@
 .navbar{
     background-color: darkorange;
+    position: fixed;
+    width: 100%;
+    
+    
 
-    
-    
 
 }
 
@@ -15,12 +17,14 @@
 }
 
 .nav-menu{
-    margin-left: 35px;
+   
     font-size: 25px;    
     padding-bottom: 30px;
     cursor: pointer;
     text-decoration: none;
     color: black;
+    
+    
 
 }
 

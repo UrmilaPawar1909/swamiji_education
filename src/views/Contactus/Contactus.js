@@ -6,7 +6,10 @@ import Footer from '../../components/Footer/Footer';
 function Contactus() {
   return (<>
   <Navbar/>
-    <div>Contactus</div>
+    <div className='contact-container'>
+      <h2>Contact Details</h2>
+      <p>Get In Touch</p>
+    </div>
     <Footer/>
 
     </>
