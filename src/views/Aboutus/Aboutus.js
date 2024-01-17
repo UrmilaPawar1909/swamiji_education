@@ -8,9 +8,8 @@ function Aboutus() {
   return (
     <>
     <Navbar/>
-    <div>Aboutus</div>
-    <h1>SK Education & Investment Hub...🎯</h1>
-    <img src={Img} class="Skimg" />
+    <h1 className='skheading'>SK Education & Investment Hub...🎯</h1>
+    <img src={Img} className='skimage' />
      <Footer/>
     </>
    
