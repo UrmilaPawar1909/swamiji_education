@@ -7,7 +7,9 @@ function Training() {
   return (
     <>
     <Navbar/>
-    <div>Training</div>
+    <div className='training-container'>
+      <h1>Training </h1>
+        </div>
     <Footer/>
     </>
   )

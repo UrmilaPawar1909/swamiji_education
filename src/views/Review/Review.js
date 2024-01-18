@@ -6,7 +6,9 @@ function Review() {
   return (
     <>
     <Navbar/>
-    <div>Review</div>
+    <div className='review-container'>
+     <h1> Review</h1>
+      </div>
   <Footer/>
   </>
   )

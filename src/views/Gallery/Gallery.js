@@ -6,7 +6,9 @@ function Gallery() {
   return (
     <>
     <Navbar/>
-    <div>Gallery</div>
+    <div className='gallery-container'>
+      <h1>Gallery</h1>
+      </div>
     <Footer/>
     </>
   )
