@@ -1,13 +1,27 @@
 
 .home-container{
    min-height: 100vh;
-
+}
+.slider-img{
+   height: 700px;
+}
+.event-heading{
+   text-align: center;
+   margin-top: 50px;
+}
+.event-container{
+   display: flex;
 }
 
-.heading-1{
-   
+.event-img-container{
+   display: inline-block;
 }
-.d-block
-{
-    height: 640px;
+
+.event-description-container{
+   display: inline-block;
+}
+
+
+.event-img{
+   margin-left: 40px;
 }
