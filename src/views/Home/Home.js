@@ -5,6 +5,7 @@ import Footer from '../../components/Footer/Footer';
 import StockImg1 from './Img/stockmarketimg1.jpg';
 import StockImg2 from './Img/stockmarketimg2.webp';
 import StockImg3 from './Img/stockmarketimg3.jpeg';
+import DemetImg from '../Openademataccount/Demetimage/homedemetmain.jpg'
 
 function Home() {
   return (
@@ -31,7 +32,7 @@ function Home() {
           <span class="visually-hidden">Next</span>
         </button>
 
-        <h1 className='event-heading '>Welcome to Swamiji Education & Investment Hub<br />.......</h1>
+        <h1 className='event-heading '>Welcome to Swamiji Education & Investment Hub...!<br />.......</h1>
         <div class="row">
             <div class="col-md-12 d-md-flex mt-5 justify-content-center ">
                 <div class="col-md-5 mt-md-5 ms-4">
@@ -67,8 +68,13 @@ function Home() {
                 </div>
 
             </div>
-            <hr/>
+        
         </div>
+        
+        <div className='row mt-5 shadow-lg' >
+          <img src={DemetImg} className='object-fit-fill border rounded  '/>
+      </div>
+      <p class="fs-1 text-dark text-center pt-2 fm">Reviews...</p>
 
 
       </div>
