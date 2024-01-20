@@ -3,7 +3,7 @@ import './Openademataccount.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import Image from './Demetimage/demethome.png';
-import DemetImg1 from './Demetimage/demetrefernce1.jpeg'
+import DemetImg1 from './Demetimage/bgremove.png'
 
 function Openademataccount() {
   return (
