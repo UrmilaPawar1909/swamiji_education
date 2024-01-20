@@ -32,13 +32,6 @@ Prior to his entrepreneurial debut, he was an equity research analyst and an act
       <img src={Img} className='child-container-image'/>
      </div>
     </div>
-    <div className='main-container'>
-     <div className='container-child'>
-      <img src={Img} className='child-container-image'/>
-     </div>
-     <div className='container-child'></div>
-    </div>
-    
     </div>
      <Footer/>
     </>
