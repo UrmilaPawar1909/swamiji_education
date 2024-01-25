@@ -7,8 +7,8 @@ function Contactus() {
   return (<>
   <Navbar/>
     <div className='contact-container'>
-      <h2>Contact Details</h2>
-      <p>Get In Touch</p>
+      <h2 className='main-heading'>Contact Details<br/>.......</h2>
+      
     </div>
     <Footer/>
 

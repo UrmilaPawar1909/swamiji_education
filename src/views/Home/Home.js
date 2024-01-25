@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import StockImg1 from './Img/stockmarketimg1.jpg';
 import StockImg2 from './Img/stockmarketimg2.webp';
-import StockImg3 from './Img/stockmarketimg3.jpeg';
+import StockImg3 from '../Openademataccount/Demetimage/demet.jpeg';
 import DemetImg from '../Openademataccount/Demetimage/homedemetmain.jpg';
 
 function Home() {

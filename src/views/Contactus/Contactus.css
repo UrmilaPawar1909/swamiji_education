@@ -1,3 +1,9 @@
 .contact-container{
           min-height: 100vh;
 }
+
+.main-heading{
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+}
