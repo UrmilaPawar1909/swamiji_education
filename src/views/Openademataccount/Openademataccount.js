@@ -3,7 +3,8 @@ import './Openademataccount.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import Image from './Demetimage/demethome.png';
-import DemetImg1 from './Demetimage/bgremove.png'
+import DemetImg1 from './Demetimage/bgremove.png';
+import DemetHorizontal from '../Openademataccount/Demetimage/demetsmallimage.jpg';
 
 function Openademataccount() {
   return (
@@ -14,7 +15,7 @@ function Openademataccount() {
                 
                 <div class="col-md-5 ">
 
-                    <img src={DemetImg1}
+                    <img src={DemetHorizontal}
                         class="ms-md-5 d-block justify-content-center h-md-100 w-75 offset-1"/>
 
 

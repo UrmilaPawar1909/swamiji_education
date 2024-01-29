@@ -3,9 +3,10 @@ import './Home.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import StockImg1 from './Img/stockmarketimg1.jpg';
-import StockImg2 from './Img/stockmarketimg2.webp';
+import StockImg2 from '../Openademataccount/Demetimage/demet-account 1024x513.jpg';
 import StockImg3 from '../Openademataccount/Demetimage/demet.jpeg';
 import DemetImg from '../Openademataccount/Demetimage/homedemetmain.jpg';
+import DemetHorizontal from '../Openademataccount/Demetimage/demetsmallimage.jpg';
 
 function Home() {
   return (
