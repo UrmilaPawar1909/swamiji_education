@@ -7,3 +7,40 @@
     margin: 10px;
     font-size: 40px;
 }
+
+.contact-from-container{
+    height: 500px;
+    background-color: red;
+    margin: 10px 30px;
+}
+
+.contact-details-container{
+    height: 500px;
+    background-color: aqua;
+    margin: 10px 30px;
+}
+
+.contact-sub-container{
+    display: inline-block;
+}
+
+.Location-img {
+    display: inline-block;
+}
+
+.Location-description{
+    display: inline-block;
+}
+
+.location-logo{
+    width: 60px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.address-title{
+    font-size: 30px;
+}
