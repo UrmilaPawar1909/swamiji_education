@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import StockImg1 from '../Home/Img/stockmarketimg1.jpg';
 import LocationImg from './img/location-img.jpg';
+import GmailImg from './img/gmail.png';
+import ContactImg from './img/contact.png';
 
 function Contactus() {
   return (<>
@@ -24,14 +26,56 @@ function Contactus() {
                 <p>Unit 421, 4th floor, Goodwill Square Mall, Dhanori, Pune</p>
               </div>
             </div>
+            <div className='email-container '>
+              <div className='email-logo'>
+                <img src={GmailImg} width={70}/>
+              </div>
+              <div className='email-description'>
+                <p className='email-title'>E-mail</p>
+                <a> skeducationandinvestmenthub82@gmail.com </a>
+              </div>
+            </div>
+            <div className='contact-container '>
+              <div className='contact-logo'>
+                <img src={ContactImg} width={70}/>
+              </div>
+              <div className='contact-description'>
+                <p className='contact-title'>Contact </p>
+                <a> 9226985252 </a>
+              </div>
+            </div>
           </div>
 
-          <div class="col-md-5 ">
+          <div class="col-md-5 form-container ">
 
-            <img src={StockImg1}
-              class="ms-md-5 d-block justify-content-center h-md-100 w-75 offset-1" />
+          <div class="col-md-5  ms-4">
+                <div className='contact-form-container'>
+                  <h1 className='form-title'>Ready to get started?</h1>
+                  <div className='input-container'>
+                    <label className='input-label'>Name:</label>
+                    <input type='text'
+                    placeholder='Enter Your Name'
+                    className='input-field'/>
 
+                  </div>
+                  <div className='input-container'>
+                    <label className='input-label'>Mobile No:</label>
+                    <input type='text'
+                    placeholder='Enter Your Mobile No.'
+                    className='input-field'/>
 
+                  </div>
+                  <div className='input-container'>
+                    <label className='input-label'>Email</label>
+                    <input type='email'
+                    placeholder='Enter Your Email'
+                    className='input-field'/>
+
+                  </div>
+                  <button type='button' className='btn-submit'>Submit</button>
+
+                </div>
+                </div>
           </div>
 
         </div>
