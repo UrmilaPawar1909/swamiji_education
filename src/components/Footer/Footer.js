@@ -38,9 +38,9 @@ function Footer()
           <div class="social-icons ">
             <a href="#"><img src={GmailImg}/></a>
             <a href="https://www.instagram.com/sk_education_82?igsh=eXdkYm1vczdsYTRs"><img src={Instalogo}/></a>
-            <a href="#"><img src={Facebook}/></a>
-            <a href="#"><img src={Location}/></a>
-            <a href="#"><img src={Telegram}/></a>
+            <a href="https://www.facebook.com/profile.php?id=61555431809772"><img src={Facebook}/></a>
+            <a href="https://maps.app.goo.gl/gpPcMV4WK9cDhAMs8"><img src={Location}/></a>
+            <a href="https://t.me/swamijieducation"><img src={Telegram}/></a>
            
             </div>
             
