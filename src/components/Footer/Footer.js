@@ -31,16 +31,17 @@ function Footer()
                 <a className="ms-1 fs-5">Refund Policy<span className="ms-1">|</span></a>
                 </b>
               </p>
+              <p className=" adress"><b> | Our Addresses | </b></p>
             </div>
           </div>
           <section id="social-media">
           
-          <div class="social-icons ">
-            <a href="#"><img src={GmailImg}/></a>
-            <a href="https://www.instagram.com/sk_education_82?igsh=eXdkYm1vczdsYTRs"><img src={Instalogo}/></a>
-            <a href="https://www.facebook.com/profile.php?id=61555431809772"><img src={Facebook}/></a>
-            <a href="https://maps.app.goo.gl/gpPcMV4WK9cDhAMs8"><img src={Location}/></a>
-            <a href="https://t.me/swamijieducation"><img src={Telegram}/></a>
+          <div class=" social-icons ">
+            <a href="#"><img src={GmailImg} className="direction"/></a>
+            <a href="https://www.instagram.com/sk_education_82?igsh=eXdkYm1vczdsYTRs" target="_blank"><img src={Instalogo} className="direction"/></a>
+            <a href="https://www.facebook.com/profile.php?id=61555431809772" target="_blank"><img src={Facebook} className="direction"/></a>
+            <a href="https://maps.app.goo.gl/gpPcMV4WK9cDhAMs8" target="_blank"><img src={Location}className="direction"/></a>
+            <a href="https://t.me/swamijieducation" target="_blank"><img src={Telegram} className="direction"/></a>
            
             </div>
             
