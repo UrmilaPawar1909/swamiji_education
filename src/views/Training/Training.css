@@ -1,3 +1,17 @@
 .training-container{
     min-height: 100vh;
 }
+
+.main-title{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about-course{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.sub-title{
+    color: orange;
+}
