@@ -7,7 +7,8 @@ function Gallery() {
     <>
     <Navbar/>
     <div className='gallery-container'>
-      <h1>Gallery</h1>
+      <h1 className='text-heading mt-3'>Gallery📸</h1>
+      <hr/>
       </div>
     <Footer/>
     </>

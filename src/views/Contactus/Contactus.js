@@ -11,7 +11,8 @@ function Contactus() {
   return (<>
     <Navbar />
     <div className='contact-container'>
-      <h2 className='main-heading'>Contact Details<br />.......</h2>
+      <h2 className='main-heading '>Contact Details☎</h2>
+      <hr/>
       <div class="row">
         <div class="col-md-12 d-md-flex mt-5 justify-content-center ">
           <div class="col-md-5 mt-md-5 ms-4">
@@ -19,28 +20,28 @@ function Contactus() {
             <p> Have in query? or want to know more? <br />Contact us and we will be happy to help.</p>
             <div className='location-container'>
               <div className='location-logo'>
-                <img src={LocationImg} width={70}/>
+                <img src={LocationImg} width={70} className='image'/>
               </div>
               <div className='location-description'>
-                <p className='address-title'>Our Address</p>
+                <p className='address-title fs-2 text-danger'>Our Address</p>
                 <p>Unit 421, 4th floor, Goodwill Square Mall, Dhanori, Pune</p>
               </div>
             </div>
             <div className='email-container '>
               <div className='email-logo'>
-                <img src={GmailImg} width={70}/>
+                <img src={GmailImg} width={70} className='image'/>
               </div>
               <div className='email-description'>
-                <p className='email-title'>E-mail</p>
+                <p className='email-title fs-2 text-danger'>E-mail</p>
                 <a> skeducationandinvestmenthub82@gmail.com </a>
               </div>
             </div>
             <div className='contact-container '>
               <div className='contact-logo'>
-                <img src={ContactImg} width={70}/>
+                <img src={ContactImg} width={70} className='image'/>
               </div>
               <div className='contact-description'>
-                <p className='contact-title'>Contact </p>
+                <p className='contact-title fs-2 text-danger'>Contact </p>
                 <a> 9226985252 </a>
               </div>
             </div>

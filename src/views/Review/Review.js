@@ -7,7 +7,8 @@ function Review() {
     <>
     <Navbar/>
     <div className='review-container'>
-     <h1> Review</h1>
+     <h1 className='heading-text mt-3'>Reviews⚜ </h1>
+     <hr/>
       </div>
   <Footer/>
   </>
