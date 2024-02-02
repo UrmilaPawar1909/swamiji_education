@@ -108,4 +108,17 @@
     font-size: 30px;
   }
 
+ .design-text{
+    text-decoration: none;
+    text-wrap: wrap;
+    
+ }
+ .image{
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.355);
+    width: 50px;
+    border-radius: 10px;
 
+ }
+ .image:hover{
+    transform: translateY(-10px);
+ }
