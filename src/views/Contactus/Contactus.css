@@ -4,7 +4,6 @@
 
 .main-heading{
     text-align: center;
-    margin-top: 0px;
 }
 
 .contact-from-container{
@@ -45,11 +44,11 @@
 }
 
 .email-container{
-    margin-top: 50px;
+    
 }
 
 .contact-container{
-    margin-top: 50px;
+    
 }
 
 .form-container{
@@ -59,7 +58,7 @@
 
 .form-title{
     
-    margin-top: 50px;
+    margin-top: 30px;
     
 }
 .contact-form-container{
@@ -111,5 +110,10 @@
   .image:hover{
     transform: translateY(-8px);
   }
+
+  .design-text{
+    text-decoration: none;
+  }
+  
 
 
