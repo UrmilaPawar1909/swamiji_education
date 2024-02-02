@@ -4,8 +4,6 @@
 
 .main-heading{
     text-align: center;
-    margin: 10px;
-    font-size: 40px;
 }
 
 .contact-from-container{
@@ -46,11 +44,11 @@
 }
 
 .email-container{
-    margin-top: 50px;
+    
 }
 
 .contact-container{
-    margin-top: 50px;
+    
 }
 
 .form-container{
@@ -60,7 +58,7 @@
 
 .form-title{
     
-    margin-top: 50px;
+    margin-top: 30px;
     
 }
 .contact-form-container{
@@ -102,6 +100,23 @@
     cursor: pointer;
   }
 
+<<<<<<< HEAD:src/views/Contactus/Contactus.css
+  .image{
+    box-shadow: 2px 2px 4px 2px black;
+    border-radius: 8px;
+    width: 50px;
+    transition: 0.2px;
+
+  }
+  .image:hover{
+    transform: translateY(-8px);
+  }
+
+  .design-text{
+    text-decoration: none;
+  }
+  
+=======
   .email-title{
     font-size: 30px;
   }
@@ -109,5 +124,6 @@
   .contact-title{
     font-size: 30px;
   }
+>>>>>>> f813866cf22e64a67e8aad4c72265fe1dde043e8:client/src/views/Contactus/Contactus.css
 
 

@@ -7,6 +7,7 @@ import StockImg2 from '../Openademataccount/Demetimage/demet-account 1024x513.jp
 import StockImg3 from '../Openademataccount/Demetimage/demet.jpeg';
 import DemetImg from '../Openademataccount/Demetimage/homedemetmain.jpg';
 import DemetHorizontal from '../Openademataccount/Demetimage/demetsmallimage.jpg';
+import demet1 from '../Openademataccount/Demetimage/33.jpg'
 
 function Home() {
   return (
@@ -20,7 +21,7 @@ function Home() {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={StockImg1}  className='d-block w-100 h-400'/>
+      <img src={demet1}  className='d-block w-100 h-400'/>
     </div>
     <div class="carousel-item">
       <img src={StockImg2} className='d-block w-100 h-400'/>
