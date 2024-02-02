@@ -20,14 +20,13 @@ function Contactus() {
             <h1 class="fw-bolder fs-1 ">Get In Touch </h1>
             <p className='mt-4 text-secondary'> <b>Have in query? or want to know more? <br />Contact us and we will be happy to help...!</b></p>
             <hr/>
-            <hr/>
             <div className='location-container mt-4'>
               <div className='location-logo'>
                 <img src={LocationImg} width={70} className='image'/>
               </div>
               <div className='location-description'>
                 <p className='address-title fs-2 text-danger mt-2'>  ● <b>Our Address</b></p>
-                <p className='fs-5 text-primary'> Unit 421, 4th floor, Goodwill Square Mall, Dhanori,Pune</p>
+                <p className='fs-5 text-primary '> Unit 421, 4th floor, Goodwill Square Mall, Dhanori,Pune</p>
               </div>
             </div>
             <div className='email-container mt-4 '>
@@ -36,7 +35,7 @@ function Contactus() {
               </div>
               <div className='email-description'>
                 <p className='email-title fs-2 text-danger mt-2'>  ● <b> E-mail</b></p>
-                <a className='fs-5 design-text'> skeducationandinvestmenthub82@gmail.com </a>
+                <p><a className='fs-5 design-text'> skeducationandinvestmenthub82@gmail.com </a></p>
               </div>
             </div>
             <div className='contact-container mt-4'>
