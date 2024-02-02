@@ -1,17 +1,24 @@
-.contact-container{
+.open-contact-container{
+    background-color:aliceblue;
+    width: fit-content;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgb(0,0,0,0,2);
+    border-radius: 15px;
+    padding: 20px 40px;
           
+}
+.contact-title-form{
+    text-align: center;
 }
 
 .main-heading{
     text-align: center;
 }
 
-.contact-from-container{
-    height: 500px;
-    background-color: red;
-    margin: 10px 30px;
-}
+.contact-input-container{
+    margin: 20px auto;
 
+}
 .contact-details-container{
     height: 500px;
     background-color: aqua;
@@ -43,42 +50,13 @@
     font-size: 30px;
 }
 
-.email-container{
-    
-}
-
-.contact-container{
-    
-}
-
-.form-container{
-   
-
-}
-
-.form-title{
-    
-    margin-top: 30px;
-    
-}
-.contact-form-container{
-    
-    background-color: aliceblue;
-    width: 600px;
-    margin: 20px auto;
-    box-shadow: 0 0 10px rgb(0,0,0,0,2);
-    border-radius: 15px;
-    padding: 20px 40px;
-    
-}
-
-.input-label{
+.contact-input-label{
     display: block;
     font-size: 22px;
 
   }
 
-  .input-filed{
+  .contact-input-filed{
     font-size: 24px;
     padding: 5px 10px;
     border: 1px solid gray;
@@ -111,7 +89,7 @@
  .design-text{
     text-decoration: none;
     text-wrap: wrap;
-    
+
  }
  .image{
     box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.355);
