@@ -49,16 +49,14 @@ function Contactus() {
             </div>
           </div>
 
-          <div class="col-md-5 form-container ">
-
           <div class="col-md-5  ms-4">
-                <div className='contact-form-container'>
-                  <h1 className='form-title'>Ready to get started?</h1>
-                  <div className='input-container'>
-                    <label className='input-label'>Name:</label>
+                <div className='open-contact-container'>
+                  <h1 className='contact-title-form'>Ready To Get Started..!</h1>
+                  <div className=' contact-input-container'>
+                    <label className='contact-input-label'>Name:</label>
                     <input type='text'
                     placeholder='Enter Your Name'
-                    className='input-field'/>
+                    className=' contact-input-field'/>
 
                   </div>
                   <div className='input-container'>
@@ -79,7 +77,6 @@ function Contactus() {
 
                 </div>
                 </div>
-          </div>
 
         </div>
         <hr className='mt-3' />
