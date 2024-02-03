@@ -5,6 +5,7 @@ import Footer from '../../components/Footer/Footer';
 import Image from './Demetimage/demethome.png';
 import DemetImg1 from './Demetimage/bgremove.png';
 import DemetHorizontal from '../Openademataccount/Demetimage/demetsmallimage.jpg';
+import From from '../../components/Form/From';
 
 function Openademataccount() {
   return (
@@ -20,34 +21,7 @@ function Openademataccount() {
 
 
                 </div>
-                <div class="col-md-5  ms-4">
-                <div className='open-account-container'>
-                  <h1 className='account-title'>Open a Demet Account</h1>
-                  <div className='input-container'>
-                    <label className='input-label'>Name:</label>
-                    <input type='text'
-                    placeholder='Enter Your Name'
-                    className='input-field'/>
-
-                  </div>
-                  <div className='input-container'>
-                    <label className='input-label'>Mobile No:</label>
-                    <input type='text'
-                    placeholder='Enter Your Mobile No.'
-                    className='input-field'/>
-
-                  </div>
-                  <div className='input-container'>
-                    <label className='input-label'>Email</label>
-                    <input type='email'
-                    placeholder='Enter Your Email'
-                    className='input-field'/>
-
-                  </div>
-                  <button type='button' className='btn-submit'>Submit</button>
-
-                </div>
-                </div>
+                <From/>
 
             </div>
             <hr className='mt-3'/>
