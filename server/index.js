@@ -1,14 +1,15 @@
 import  express from "express";
-
+import dotenv from "dotenv";
+dotenv.config();
 import mongoose from "mongoose";
 import Client from "./models/Client.js";
 
 const app = express();
 app.use(express.json());
 
-const MONGODB_URI = 'mongodb+srv://urmila1909:urmila1909@urmila121.ibfdcnk.mongodb.net/swamiji';
+
 const connectMongoDB = async()=>{
-    const connection = await mongoose.connect(MONGODB_URI);
+    const connection = await mongoose.connect(process.env.MONGODB_URI);
     if (connection){
         console.log("connected to MongoDB");
     }

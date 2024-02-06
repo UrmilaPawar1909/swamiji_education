@@ -55,9 +55,9 @@ function From() {
             <input type='email'
               placeholder='Enter Your Email'
               className='input-field'
-              value={name}
+              value={email}
               onChange={(e) => {
-                setName(e.target.value)
+                setEmail(e.target.value)
               }} />
 
           </div>
