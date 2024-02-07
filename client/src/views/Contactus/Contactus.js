@@ -18,11 +18,11 @@ function Contactus() {
         <div class="col-md-12 d-md-flex mt-2 justify-content-center ">
           <div class="col-md-5 mt-md-5 ms-4">
             <h1 class="fw-bolder fs-1 ">Get In Touch </h1>
-            <p className='mt-4 text-secondary'> <b>Have in query? or want to know more? <br />Contact us and we will be happy to help...!</b></p>
+            <p className='mt-4 text-secondary'> <b>Have in query? or want to know more? <br/> Contact us and we will be happy to help...!</b></p>
             <hr/>
             <div className='location-container mt-4'>
               <div className='location-logo'>
-                <img src={LocationImg} width={70} className='image'/>
+                <img src={LocationImg} width={70} className='image' />
               </div>
               <div className='location-description'>
                 <p className='address-title fs-2 text-danger mt-2'>  ● <b>Our Address</b></p>
@@ -57,7 +57,6 @@ function Contactus() {
                     <input type='text'
                     placeholder='Enter Your Name'
                     className=' contact-input-field'/>
-
                   </div>
                   <div className='input-container'>
                     <label className='input-label'>Mobile No:</label>
