@@ -2,7 +2,13 @@ import React from 'react';
 import './Contactus.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
-import StockImg1 from '../Home/Img/stockmarketimg1.jpg';        
+import StockImg1 from '../Home/Img/stockmarketimg1.jpg';      
+import LocationImg from './img/location-img.jpg'  ;
+import GmailImg from './img/gmail.png';
+import ContactImg from './img/contact.png';
+import From  from '../../components/Form/From';
+ 
+function Contactus(){
   return (
   <>
     <Navbar />
@@ -82,6 +88,7 @@ import StockImg1 from '../Home/Img/stockmarketimg1.jpg';
 
   </>
   )
+}
 
 
 
