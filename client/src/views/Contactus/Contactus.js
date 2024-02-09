@@ -2,13 +2,9 @@ import React from 'react';
 import './Contactus.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
-import StockImg1 from '../Home/Img/stockmarketimg1.jpg';
-import LocationImg from './img/location-img.jpg';
-import GmailImg from './img/gmail.png';
-import ContactImg from './img/contact.png';
-
-function Contactus() {
-  return (<>
+import StockImg1 from '../Home/Img/stockmarketimg1.jpg';        
+  return (
+  <>
     <Navbar />
 
       <h2 className='main-heading mt-4 '> <b> Contact Details☎ </b></h2>
@@ -87,6 +83,6 @@ function Contactus() {
   </>
   )
 
-}
+
 
 export default Contactus

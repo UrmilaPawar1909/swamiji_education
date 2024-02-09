@@ -14,10 +14,7 @@ function From() {
       name: name,
       email: email,
       mobileno: mobileno,
-
     });
-
-
     if (response.data.data) {
       alert(response.data.message)
     }
