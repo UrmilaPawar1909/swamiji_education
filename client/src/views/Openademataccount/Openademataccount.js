@@ -12,7 +12,7 @@ function Openademataccount() {
     <Navbar/>
     <div class="row">
             <div class="col-md-12 d-md-flex mt-5 justify-content-center ">
-                
+              
                 <div class="col-md-5 ">
 
                     <img src={DemetImg1}

@@ -51,33 +51,10 @@ function Contactus(){
             </div>
           </div>
 
-          <div class="col-md-5  ms-4">
-                <div className='open-contact-container'>
-                  <h1 className='contact-title-form'>Ready To Get Started..!</h1>
-                  <div className=' contact-input-container'>
-                    <label className='contact-input-label'>Name:</label>
-                    <input type='text'
-                    placeholder='Enter Your Name'
-                    className=' contact-input-field'/>
-                  </div>
-                  <div className='input-container'>
-                    <label className='input-label'>Mobile No:</label>
-                    <input type='text'
-                    placeholder='Enter Your Mobile No.'
-                    className='input-field'/>
+          
 
-                  </div>
-                  <div className='input-container'>
-                    <label className='input-label'>Email</label>
-                    <input type='email'
-                    placeholder='Enter Your Email'
-                    className='input-field'/>
-
-                  </div>
-                  <button type='button' className='btn-submit'>Submit</button>
-
-                </div>
-                </div>
+            
+                <From/>
 
         </div>
         <hr className='mt-3' />
