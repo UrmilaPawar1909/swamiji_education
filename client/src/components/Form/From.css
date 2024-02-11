@@ -1,15 +1,16 @@
 .open-account-container{
-    background-color: aliceblue;
-    width: 500px;
-    margin: 20px auto;
-    box-shadow: 0 0 10px rgb(0,0,0,0,2);
-    border-radius: 15px;
-    padding: 20px 40px;
+  background-color:aliceblue;
+  width: fit-content;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgb(0,0,0,0,2);
+  border-radius: 15px;
+  padding: 20px 40px;
 
   }
 
   .account-title{
     text-align: center;
+    text-wrap: wrap;
   }
 
   .input-label{
@@ -39,3 +40,4 @@
     margin: 20px auto;
     cursor: pointer;
   }
+  

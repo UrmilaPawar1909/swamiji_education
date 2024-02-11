@@ -22,7 +22,7 @@ function From() {
 
   return (
     <div>
-      <div class="col-md-5  ms-4">
+      <div class="col-md-5  ms-4 ">
         <div className='open-account-container'>
           <h1 className='account-title'>Open a Demet Account</h1>
           <div className='input-container'>
