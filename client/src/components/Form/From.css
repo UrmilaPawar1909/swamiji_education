@@ -1,19 +1,10 @@
 .open-account-container{
-<<<<<<< HEAD
-  background-color:aliceblue;
-  width: max-content;
-  margin: 20px auto;
-  box-shadow: 0 0 10px rgb(0,0,0,0,2);
-  border-radius: 15px;
-  padding: 20px 40px;
-=======
     background-color: rgb(231, 234, 236);
     width: 500px;
     margin: 20px auto;
     box-shadow: 0 0 10px rgb(0,0,0,0,2);
     border-radius: 15px;
     padding: 20px 40px;
->>>>>>> 05f47e266a270f7617ea066be2680fcda601defa
 
   }
 
