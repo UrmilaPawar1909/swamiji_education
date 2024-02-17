@@ -50,13 +50,8 @@ function Contactus(){
               </div>
             </div>
           </div>
-
-          
-
-            
-                <From/>
-
-        </div>
+          <From/>
+          </div>
         <hr className='mt-3' />
       </div>
 
