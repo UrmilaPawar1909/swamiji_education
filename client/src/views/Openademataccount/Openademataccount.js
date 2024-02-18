@@ -17,8 +17,7 @@ function Openademataccount() {
 
                     <img src={DemetImg1}
                         class="ms-md-5 d-block justify-content-center h-md-100 w-75 offset-1"/>
-
-
+                        
                 </div>
                 <From/>
 

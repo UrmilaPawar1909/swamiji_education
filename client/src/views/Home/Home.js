@@ -7,7 +7,7 @@ import StockImg2 from '../Openademataccount/Demetimage/demet-account 1024x513.jp
 import StockImg3 from '../Openademataccount/Demetimage/demet.jpeg';
 import DemetImg from '../Openademataccount/Demetimage/homedemetmain.jpg';
 import DemetHorizontal from '../Openademataccount/Demetimage/demetsmallimage.jpg';
-import demet1 from '../Openademataccount/Demetimage/33.jpg'
+import demet1 from '../Openademataccount/Demetimage/33.jpg';
 
 function Home() {
   return (
@@ -40,7 +40,6 @@ function Home() {
   </button>
 </div>
 <div>
-
         <h1 className='event-heading '>Welcome to Swamiji Education & Investment Hub...!<br />.......</h1>
         <div class="row">
             <div class="col-md-12 d-md-flex mt-5 justify-content-center ">
@@ -53,12 +52,10 @@ function Home() {
 
                     <img src={StockImg1}
                         class="ms-md-5 d-block justify-content-center h-md-100 w-75 offset-1"/>
-
-
                 </div>
 
             </div>
-            <hr className='mt-3'/>
+            <hr className='mt-3'/>m
         </div>
         <div class="row">
             <div class="col-md-12 d-md-flex mt-5 justify-content-center ">
@@ -67,8 +64,6 @@ function Home() {
 
                     <img src={StockImg1}
                         class="ms-md-5 d-block justify-content-center h-md-100 w-75 offset-1"/>
-
-
                 </div>
                 <div class="col-md-5 mt-md-5 ms-4">
                     <h1 class="fw-bolder fs-1 ">Download your shows <br/>to watch offline</h1>

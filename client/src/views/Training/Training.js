@@ -19,6 +19,7 @@ function Training() {
         <li className='ms-3'>Employees Working In Stock Market And Financial Fields</li>
         <li className='ms-3'>In fact, anyone who is passionate about share market.</li>
         </ul>
+        <p>Experiance is not necessary. </p>
       </div>
         </div>
     <Footer/>
