@@ -1,8 +1,13 @@
 import  express from "express";
 import dotenv from "dotenv";
 dotenv.config();
+
+import  Path  from "path";
+const __dirname = Path.resolve();
+
 import mongoose from "mongoose";
 import Client from "./models/Client.js";
+
 
 const app = express();
 app.use(express.json());
@@ -45,7 +50,18 @@ app.post('/submit', async(req, res)=>{
     })
     
     }
+
+    
 });
+
+if (process.env.NODE_ENV === "production")
+{
+    app.use(express.static(Path.join(__dirname, '..','client','build')));
+
+    app.get('*', (req, res)=>{
+        res.sendFile(Path.join(__dirname, '..','client','build','index.html'))
+    });
+}
 
 const PORT = 5000;
 app.listen(PORT, ()=>{
