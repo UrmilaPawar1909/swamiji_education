@@ -2,6 +2,7 @@ import React from 'react';
 import './Training.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
+import Trainingposter from './Img/trainingposter.jpeg';
 
 function Training() {
   return (
@@ -26,8 +27,8 @@ function Training() {
                 
                 <div class="col-md-5 ">
 
-                    <img 
-                        class="ms-md-5 d-block justify-content-center h-md-100 w-75 offset-1"/>
+                    <img src={Trainingposter}
+                        class="ms-md-5 d-block justify-content-center h-md-100 w-75 offset-1 trainingposterimg"/>
                 </div>
                 <div class="col-md-5 mt-md-5 ms-4">
                     <h1 class="fw-bolder fs-1 ">A complete Trading course <br/></h1>
