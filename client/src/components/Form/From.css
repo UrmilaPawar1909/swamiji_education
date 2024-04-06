@@ -1,9 +1,10 @@
 .open-account-container{
     background-color: rgb(231, 234, 236);
     width: min-content;
+    content-visibility:visible;
     margin: 10px auto;
     box-shadow: 0 0 10px rgb(0,0,0,0,2);
-    border-radius: 15px;
+    border-radius: 12px;
     padding: 20px 40px;
 
   }
@@ -11,6 +12,7 @@
   .account-title{
     text-align: center;
     text-wrap: wrap;
+  
   }
 
   .input-label{
