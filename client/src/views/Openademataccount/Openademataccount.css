@@ -4,7 +4,8 @@
     margin-top: 1px;
 }
 .dement-container{
-    min-height: 100vh;
+ max-width: max-content;
+ 
 }
 .row{
     
@@ -20,4 +21,14 @@
     margin-bottom: 17px;
   }
 
-  
+  .account-text{
+    text-align: center;
+    text-wrap: wrap;
+    color: orange;
+
+  }
+  .account-second-text{
+    text-align:center;
+    text-wrap: wrap;
+    width: 200px;
+  }
